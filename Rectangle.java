@@ -1,10 +1,11 @@
 /** 实现类：矩形 */
-public class Rectangle implements Shape {
+public class Rectangle extends Shape {
 
     private final double width;
     private final double height;
 
-    public Rectangle(double width, double height) {
+    public Rectangle(double width, double height, String color) {
+        super(color);
         this.width = width;
         this.height = height;
     }

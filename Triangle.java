@@ -1,8 +1,10 @@
-public class Triangle implements Shape {
+import java.awt.*;
+
+public class Triangle extends Shape {
     private final double height;
     private final double base;
-
-    public Triangle(double height, double base) {
+    public Triangle(double height, double base, String color) {
+        super(color);
         this.height = height;
         this.base = base;
     }

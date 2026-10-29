@@ -1,6 +1,7 @@
-public  class Square implements Shape {
+public  class Square extends Shape {
     private final double side;
-    public  Square(double side) {
+    public  Square(double side, String color) {
+        super(color);
         this.side=side;
     }
 
